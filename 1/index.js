@@ -1,11 +1,10 @@
-reg=/\s/
 let surname=document.querySelector('#surname')
 let firstname=document.querySelector('#name')
 let patronymic=document.querySelector('#patronymic')
 
 function showName() {
 let fio=prompt('Введите Ваше ФИО')
-if (reg.test(fio))
+if (fio.includes(' '))
 {}
 else (alert('Введите с пробелами'))
 
