@@ -7,8 +7,8 @@ let average=document.querySelector('.average')
 let summa=document.querySelector('.sum')
 let multiply=document.querySelector('.multiply')
 
-let min = -10;
-let max = 10;
+let min = -10
+let max = 10
 function getRandomNumber(){
     let arr=[]
     let sum=0

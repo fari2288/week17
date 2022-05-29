@@ -1,9 +1,9 @@
 let date= new Date(2022,04,24,21,0)
 
-let diff=Date.now()-date
     
-function formatDate() {
+function formatDate(date) {
 
+let diff=Date.now()-date
 if (diff<1000){
 alert('прямо сейчас')
 }
